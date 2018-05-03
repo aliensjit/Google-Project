@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		function add7() {
+			var num = prompt('Please enter a number.');
+			alert(+num + 7);
+		}
+		function multiply() {
+			var mul1 = prompt('Please enter a number.');
+			var mul2 = prompt('Please enter another number.');
+			alert(+mul1 * +mul2);
+		}
+		function capitalize() {
+			var sentence = prompt('Please type a sentence.');
+			var upcase = sentence.charAt(0).toUpperCase();
+			var lowcase = sentence.slice(1).toLowerCase();
+			var comp = upcase + lowcase;
+			alert(comp);
+		}
+		function lastLetter() {
+			var word = prompt('Please enter a word.');
+			var amm = word.split("")
+			alert(amm.pop());
+		}
+		console.log(lastLetter())
+	</script>
+</body>
+</html>
